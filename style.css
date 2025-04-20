@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* HTML SMOOTH */
+html{
+    scroll-behavior: smooth;
+}
+
+/* GOTO TOP */
+
+.goto-top{
+    height:40px;
+    width:70px;
+    background-color:rgb(5, 0, 148);
+    color:rgb(187, 187, 187);
+    border-radius:20px;
+    font-size:25px;
+    font-weight:500;
+    text-align:center;
+    padding:10px 0 0 0 ;
+    bottom:15px;
+    right:15px;
+}
+
+
+/* NAVIGATION BAR */
+
+.nav{
+    height:90px;
+    width:100%;
+    background-color:rgb(5, 0, 148);
+    background:linear-gradient(to right, #0E0142, #14025b)
+}
+
+.nav h1{
+    position:absolute;
+    font-size:40px;
+    font-weight:bolder;
+    color:white;
+    top:20px;
+    left:5%;
+}
+
+.nav ul{
+    float:right;
+    margin-right:30px;
+}
+
+.nav ul li{
+    display:inline-block;
+    margin:0 70px;
+    line-height: 90px;
+}
+
+.nav ul li a{
+    position:relative;
+    font-size:18px;
+    text-transform: uppercase;
+    color:#91c6ff;
+    text-decoration: none;
+    font-weight:500;
+    transition: color 0.17s;
+}
+
+/* HOVERING AN ELEMENT */
+
+.nav ul li a:hover{
+    color:#007bff;
+}
+
+/*FRAME 1 */
+
+.frame1{
+    width:100%;
+    height:150vh;
+    background:linear-gradient(to bottom, black,rgb(24, 24, 24));
+}
+
+/* PLANET 1 */
+
+.frame1 .planet1{
+    width:100%;
+    height:50vh;
+    background-color:rgba(251, 255, 0, 0.041);
+}
+
+.planet1 img{
+    float:left;
+    width:500px;
+    margin-top:30px;
+    margin-left:50px;
+}
+
+.planet1 .info1{
+    text-align:center;
+    float:right;
+    width:800px;
+    margin-right:90px;
+}
+
+.info1 h2{
+    font-size:35px;
+    font-weight:700;
+    padding-top:40px;
+    color:rgba(251, 255, 0, 0.197);
+}
+
+.info1 p{
+    margin-top:20px;
+    font-size:20px;
+    line-height: 35px;
+    color:rgba(251, 255, 0, 0.09);
+}
+
+/* PLANET 2 */
+
+.frame1 .planet2{
+    width:100%;
+    height:50vh;
+    background-color:rgba(255, 174, 0, 0.087);
+}
+
+.planet2 img{
+    float:right;
+    width:350px;
+    margin-top:30px;
+    margin-right:80px;
+}
+
+.planet2 .info2{
+    text-align:center;
+    float:left;
+    width:800px;
+    margin-left:70px;
+}
+
+.info2 h2{
+    font-size:35px;
+    font-weight:700;
+    padding-top:40px;
+    color:rgba(255, 157, 0, 0.197);
+}
+
+.info2 p{
+    margin-top:20px;
+    font-size:20px;
+    line-height: 35px;
+    color:rgba(255, 174, 0, 0.09);
+}
+
+/* PLANET 3 */
+
+.frame1 .planet3{
+    width:100%;
+    height:50vh;
+    background-color:rgba(43, 255, 0, 0.041);
+}
+
+.planet3 img{
+    float:left;
+    width:400px;
+    margin-top:10px;
+    margin-left:70px;
+}
+
+.planet3 .info3{
+    text-align:center;
+    float:right;
+    width:800px;
+    margin-right:90px;
+}
+
+.info3 h2{
+    font-size:35px;
+    font-weight:700;
+    padding-top:40px;
+    color:rgba(9, 255, 0, 0.197);
+}
+
+.info3 p{
+    margin-top:20px;
+    font-size:20px;
+    line-height: 35px;
+    color:rgba(0, 255, 13, 0.09);
+}
